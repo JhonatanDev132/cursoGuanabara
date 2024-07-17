@@ -1,7 +1,11 @@
-n = input('Insira um número: ')
+algo = input("Digite algo para sabermos o tipo primitivo: ")
 
-print('O tipo primitivo desse valor é: ', type(n))
-print('É um número? ', n.isnumeric())
-print('É um alpha?', n.isalpha())
-print('É um decimal?', n.isdecimal())
-print('É um caractere minúsculo?', n.islower())
+print("O tipo primitivo do que você escreveu é: ", type(algo))
+
+print("Possui só maiúsculas? ", algo.isupper())
+print("Possui só minúsculas? ", algo.islower())
+print("É alfanúmerico? ", algo.isalnum())
+print("É alfabético? ", algo.isalpha())
+print("Está capitalizada?", algo.istitle())
+print("É um numero? ", algo.isnumeric())
+print('É um decimal?', algo.isdecimal())
