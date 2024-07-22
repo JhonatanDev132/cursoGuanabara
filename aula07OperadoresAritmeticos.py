@@ -23,6 +23,8 @@
 #print("A soma é {}, a multiplicação é {}, e a divisão é {:.3f} ".format(s, m, d))
 #print("Divisão inteira {}, e potência {}".format(di, e))
 
+# TABUADA
+
 #numero = int(input("Digite um número para que a tabuada seja feita: "))
 #contador = 0
 
@@ -33,6 +35,7 @@
 #    print("{} x {} = {}".format(numero, contador, num))
 #    contador += 1
 
+## CONVERSOR DE MOEDA
 
 #carteira = float(input("Quanto dinheiro você tem na carteira? "))
 #precoReal = 3.27
@@ -41,10 +44,12 @@
 
 #print("Com R${:.2f} Você pode comprar ${:.2f} doláres.".format(carteira, carteiraDolar))
 
-largura = float(input("Escreva a largura da parede: "))
-altura = float(input("Escreva a altura da parede: "))
+## AREA E TINTA
 
-area = largura * altura
-tinta = area / 2
+#largura = float(input("Escreva a largura da parede: "))
+#altura = float(input("Escreva a altura da parede: "))
 
-print("Sua parede tem uma area de {}m², e será necessário {}l de tinta para pintar ela.".format(area, tinta))
+#area = largura * altura
+#tinta = area / 2
+
+#print("Sua parede tem uma area de {}m², e será necessário {}l de tinta para pintar ela.".format(area, tinta))
