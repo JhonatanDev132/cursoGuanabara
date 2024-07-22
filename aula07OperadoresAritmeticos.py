@@ -53,3 +53,13 @@
 #tinta = area / 2
 
 #print("Sua parede tem uma area de {}m², e será necessário {}l de tinta para pintar ela.".format(area, tinta))
+
+## Calculando descontos
+
+#valorDoProduto = float(input("Digite o valor do produto para aplicarmos o desconto de 5%: "))
+
+#desconto = valorDoProduto * 0.05
+
+#novoValor = valorDoProduto - desconto
+
+#print("O produto que você colocou com o desconto de 5% aplicado é equivalente a: R${:.2f}".format(novoValor))
