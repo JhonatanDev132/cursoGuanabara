@@ -39,7 +39,6 @@
 
 #carteira = float(input("Quanto dinheiro você tem na carteira? "))
 #precoReal = 3.27
-
 #carteiraDolar = carteira / precoReal
 
 #print("Com R${:.2f} Você pode comprar ${:.2f} doláres.".format(carteira, carteiraDolar))
@@ -48,7 +47,6 @@
 
 #largura = float(input("Escreva a largura da parede: "))
 #altura = float(input("Escreva a altura da parede: "))
-
 #area = largura * altura
 #tinta = area / 2
 
@@ -57,9 +55,7 @@
 ## Calculando descontos
 
 #valorDoProduto = float(input("Digite o valor do produto para aplicarmos o desconto de 5%: "))
-
 #desconto = valorDoProduto * 0.05
-
 #novoValor = valorDoProduto - desconto
 
 #print("O produto que você colocou com o desconto de 5% aplicado é equivalente a: R${:.2f}".format(novoValor))
@@ -67,7 +63,23 @@
 ## Reajute de salário
 
 #salario = float(input("Qual o seu salário atual? "))
-
 #novoSalario = salario + (salario * 0.15)
 
 #print("Seu novo salário com um aumento de 15% ficou R${:.2f}".format(novoSalario))
+
+## Convertendo a temperatura
+
+#c = float(input("Informe a temperatura em °C: "))
+#f = ((9*c)/5) + 32
+
+#print("A temperatura {}°C informada, convertida em °F fica, {}°F.".format(c, f))
+
+## Aluguel de carros
+
+#km = float(input("Quantos Km's foram percorridos com o carro? "))
+#dias = int(input("Quantos dias o carro foi alugado? "))
+#precoKm = km * 0.15
+#precoDias = dias * 60
+#total = precoDias + precoKm
+
+#print("O total a pagar sendo R${:.2f} de Km's rodados e R${:.2f} de dias alugados o total a pagar fica: R${:.2f}".format(precoKm, precoDias, total))
