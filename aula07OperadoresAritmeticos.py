@@ -63,3 +63,11 @@
 #novoValor = valorDoProduto - desconto
 
 #print("O produto que você colocou com o desconto de 5% aplicado é equivalente a: R${:.2f}".format(novoValor))
+
+## Reajute de salário
+
+#salario = float(input("Qual o seu salário atual? "))
+
+#novoSalario = salario + (salario * 0.15)
+
+#print("Seu novo salário com um aumento de 15% ficou R${:.2f}".format(novoSalario))
